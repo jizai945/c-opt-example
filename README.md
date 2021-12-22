@@ -20,7 +20,7 @@ gcc opt_example.c
 
 ```shell
 gcc opt_long_example.c
-./a.out -d -c111 -d 222  --add 333 --file "/dev/ttys6"
+./a.out -c111 -d 222  --add 333 --file "/dev/ttys6"  
 ```
 
 ![](getopt_long.png)
